@@ -1,0 +1,14 @@
+enable : true
+topTitle: Our lovely home
+title: Gallery
+item :
+  - image         : images/gallery/house.png
+  - image         : images/gallery/img_0042.jpg
+  - image         : images/gallery/img_0043.jpg
+  - image         : images/gallery/img_0050.jpg
+  - image         : images/gallery/img_0052.jpg
+  - image         : images/gallery/img_0053.jpg
+  - image         : images/gallery/img_0057.jpg
+  - image         : images/gallery/img_0059.jpg
+  - image         : images/gallery/img_0081.jpg
+  - image         : images/gallery/img_9142.jpg

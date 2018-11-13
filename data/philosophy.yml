@@ -1,0 +1,91 @@
+enable    : true
+topTite   : LITTLE MORE BRIEF
+title     : About Us.
+subtitle  : More info about our daycare
+tabItem   :
+  - id        : schedule
+    title     : Schedule
+    heading   : A  day full of activities
+    content   : >
+      <b>Morning</b><br>
+      7.30 - 8.45 Gathering of the kids various calm games<br>
+      8.30 - 9.00 Breakfast <br>
+      9.00 - 9.15 Morning exercise<br>
+      9.30 - 10.15 First lesson<br>
+      10.30 - 10.45 Fruity breakfast<br>
+      11.00 - 11.45 Second lesson<br>
+      12.00 - 13.00 Outside activity<br>
+      <b>Day</b><br>
+      13.00 - 13.30 Lunch<br>
+      13.30 - 14.00  Preparation for a nap<br>
+      14.00 - 16.00 Nap<br>
+      16.00 - 16.15 Wake up<br>
+      <b>Evening</b> <br>
+      16.15 - 17.00 Third lesson<br>
+      17.00 - 17.20 Snack<br>
+      17.30 - 18.30 Outside activity (On Friday 17.30 - 18.00)<br>
+
+    image     : images/schedule.png
+
+  - id        : menu
+    title     : Menu
+    heading   : All meals are cooked daily by our staff with fresh, organic ingredients
+    content   : >
+      <style type="text/css">
+      .tg  {border-collapse:collapse;border-spacing:0;}
+      .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+      .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+      .tg .tg-8xx9{font-family:"Trebuchet MS", Helvetica, sans-serif !important;;color:#656565;border-color:inherit;vertical-align:top}
+      .tg .tg-degc{font-weight:bold;font-family:"Trebuchet MS", Helvetica, sans-serif !important;;color:#656565;border-color:inherit;vertical-align:top}
+      .tg .tg-s6qe{font-weight:bold;font-family:"Trebuchet MS", Helvetica, sans-serif !important;;color:#656565;border-color:inherit;text-align:center;vertical-align:top}
+      .tg .tg-8sk9{font-size:12px;font-family:"Trebuchet MS", Helvetica, sans-serif !important;;color:#656565;border-color:inherit;vertical-align:top}
+      .tg .tg-vnci{font-family:Georgia, serif !important;;color:#656565;border-color:#ffffff;vertical-align:top}
+      .tg .tg-syxo{font-size:12px;font-family:Georgia, serif !important;;color:#656565;border-color:#ffffff;vertical-align:top}
+      </style>
+      <table class="tg" style="undefined;table-layout: fixed; width: 535px">
+      <colgroup>
+      <col style="width: 79px">
+      <col style="width: 91px">
+      <col style="width: 91px">
+      <col style="width: 91px">
+      <col style="width: 91px">
+      <col style="width: 92px">
+      </colgroup>
+        <tr>
+          <th class="tg-8xx9"></th>
+          <th class="tg-s6qe">MON</th>
+          <th class="tg-s6qe">TUE</th>
+          <th class="tg-s6qe">WED</th>
+          <th class="tg-s6qe">THU</th>
+          <th class="tg-s6qe">FRI<br></th>
+        </tr>
+        <tr>
+          <td class="tg-degc"><br>Breakfast</td>
+          <td class="tg-8sk9">Cereals with milk, water    <br>Fruit Breakfast*<br></td>
+          <td class="tg-8sk9">Waffles with yogurt, juice/milk<br>Fruit Breakfast*</td>
+          <td class="tg-8sk9">Wheatcream kasha. Juice/water<br>Fruit Breakfast*</td>
+          <td class="tg-8sk9">Oatmeal kasha<br>Fruit Breakfast*</td>
+          <td class="tg-8sk9">Omelette (eggs, milk) with bread. Juice/water<br>Fruit Breakfast*<br></td>
+        </tr>
+        <tr>
+          <td class="tg-degc">Lunch</td>
+          <td class="tg-8sk9">Cabbage soup, mashed potatoes with fish sticks, salad (tomatoes, cucumber, radish, green herbs, salt, olive oil). Bread, juice/water.<br></td>
+          <td class="tg-8sk9">Noodle soup with chicken, buckwheat with chicken kotleta (burgers). Salad ( cucumber with garlic, green herbs, salt, olive oil). Bread, juice/water.<br></td>
+          <td class="tg-8sk9">Soup with meatballs and salt cucumbers, sourcreem. Mini pancakes with farmercheese. Juice/water.<br></td>
+          <td class="tg-8sk9">Borcsh with sourcream, meatballs with rice and white sauce. Salad (tomatoes, cucumber, radish, green herbs, salt, oil). Bread, juice/water<br></td>
+          <td class="tg-8sk9">Soup with peas, ravioli wth butter and sausages. Mixed vegetables, water/juice. <br></td>
+        </tr>
+        <tr>
+          <td class="tg-degc">Snack</td>
+          <td class="tg-8sk9">Cream Cheese, bread, juice/milk<br></td>
+          <td class="tg-8sk9">Cookies with milk, bananas, water<br></td>
+          <td class="tg-8sk9">Cereal with milk</td>
+          <td class="tg-8sk9">Cheese sticks, small carrots, milk<br></td>
+          <td class="tg-8sk9">Crackers, small carrots. Milk or Juice<br></td>
+        </tr>
+        <tr>
+          <td class="tg-vnci"></td>
+          <td class="tg-syxo" colspan="5">*Fruit Breakfast: apple, banana, or watermelon/orange<br></td>
+        </tr>
+      </table>
+    image     : images/teremok/food.png
