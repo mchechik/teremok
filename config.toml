@@ -1,0 +1,41 @@
+theme = "hugo-serif-theme"
+baseURL = "/"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+    [language.en]
+        languageCode = "en-us"
+        languageName = "English"
+        title = "Teremok Daycare"
+        contentDir = "content/en"
+        weight = 1
+    [language.ru]
+        languageCode = "ru"
+        languageName = "Russian"
+        title = "Детский Садик Теремок"
+        contentDir = "content/ru"
+        weight = 2
+
+[params]
+    google_analytics_id=""
+
+[[menu.main]]
+	name = "Home"
+	url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Schedule"
+    url = "/schedule/"
+    weight = 2
+
+[[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

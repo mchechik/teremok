@@ -1,21 +1,21 @@
-{
-  "title" : "Features",
-  "description" : "We're best at our services",
-  "content" : [
-    {
-      "icon" : "bell",
-      "title" : "Feature 1",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum tristique arcu, in tristique sapien commodo sodales. Vivamus condimentum quam mi."
+[
+  {
+    "title": "Full day of engaging activities",
+    "link": {
+      "url": "/schedule",
+      "text": "See full schedule"
     },
-    {
-      "icon" : "rocket",
-      "title" : "Feature 2",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur, est sed vestibulum viverra, mi dui semper erat, non placerat dolor est"
-    },
-    {
-      "icon" : "clock",
-      "title" : "Feature 3",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in ornare orci, et posuere velit. Suspendisse tempor blandit augue, non. "
-    }
-  ]  
-}
+    "image": "/features/schedule.png",
+    "description": "Fun and educational activities that keep kids engaged."
+  },
+  {
+    "title": "Home cooked meals",
+    "description": "All meals are cooked on premise using organic ingredients.",
+    "image": "/features/food.PNG"
+  },
+  {
+    "title": "Fully licensed daycare and staff",
+    "description": "Мама, сюда номер лайсенса вставить надо.",
+    "image": "/features/docs.svg"
+  }
+]
