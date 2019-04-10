@@ -1,0 +1,64 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-contact{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      {{ .Content }}
+      <ul>
+        <li><strong>{{ i18n "phone" }}: </strong>{{ .Site.Data.contact.phone }}</li>
+        <li><strong>{{ i18n "email" }}: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
+            {{ .Site.Data.contact.email }}</a></li>
+        {{ if .Site.Data.contact.address }}
+        <li><strong>{{ i18n "address" }}: </strong>{{ .Site.Data.contact.address }}</li>
+        {{ end }}
+      </ul>
+      <iframe width="100%" height="360" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJWRK8DE_Pt4kRMdVto09JeJs&key=AIzaSyA0P63OQ2IFE1jQysmc1Bg29QpI-xihn4I " allowfullscreen>
+      </iframe>
+      <h4 class="mt-4">{{ i18n "hoursOfOp" }}</h4>
+      <table class="table table-sm opening-hours-table">
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "mon" }}</td>
+          <td class="opens">7:30 - 18:30</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "tue" }}</td>
+          <td class="opens">7:30 - 18:30</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "wed" }}</td>
+          <td class="opens">7:30 - 18:30</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "thu" }}</td>
+          <td class="opens">7:30 - 18:30</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "fri" }}</td>
+          <td class="opens">7:30 - 18:00</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "sat" }}</td>
+          <td class="opens">{{ i18n "closed" }}</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">{{ i18n "sun" }}</td>
+          <td class="opens">{{ i18n "closed" }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+{{ end }}

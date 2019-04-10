@@ -1,0 +1,53 @@
+- id: home
+  translation: "Home"
+
+- id: schedule
+  translation: "Schedule"
+
+- id: gallery
+  translation: "Gallery"
+
+- id: contact
+  translation: "Contact"
+
+- id: language
+  translation: "Русский"
+
+- id: phone
+  translation: "Phone"
+
+- id: email
+  translation: "Email"
+
+- id: aboutus
+  translation: "About us"
+
+- id: address
+  translation: "Address"
+
+- id: hoursOfOp
+  translation: "Business Hours"
+
+- id: mon
+  translation: "Monday"
+
+- id: tue
+  translation: "Tuesday"
+
+- id: wed
+  translation: "Wednesday"
+
+- id: thu
+  translation: "Thursday"
+
+- id: fri
+  translation: "Friday"
+
+- id: sat
+  translation: "Saturday"
+
+- id: sun
+  translation: "Sunday"
+
+- id: closed
+  translation: "Closed"
