@@ -1,18 +1,18 @@
 theme = "hugo-serif-theme"
 baseURL = "/"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-[languages]
-    [language.en]
+[Languages]
+    [Languages.en]
         languageCode = "en-us"
-        languageName = "English"
+        languageName = "English site"
         title = "Teremok Daycare"
         contentDir = "content/en"
         weight = 1
-    [language.ru]
+    [Languages.ru]
         languageCode = "ru"
-        languageName = "Russian"
+        languageName = "Русский сайт"
         title = "Детский Садик Теремок"
         contentDir = "content/ru"
         weight = 2
@@ -21,21 +21,21 @@ defaultContentLanguageInSubdir = true
     google_analytics_id=""
 
 [[menu.main]]
-	name = "Home"
+	name = "home"
 	url = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Schedule"
+    name = "schedule"
     url = "/schedule/"
     weight = 2
 
 [[menu.main]]
-    name = "Gallery"
+    name = "gallery"
     url = "/gallery/"
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
+    name = "contact"
     url = "/contact/"
     weight = 4

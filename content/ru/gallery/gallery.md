@@ -1,5 +1,5 @@
 ---
-title: 'Gallery'
+title: 'Галерея'
 date: 2018-11-19T10:47:58+10:00
 draft: false
 weight: 1
@@ -26,8 +26,8 @@ weight: 1
 
 <div class="w3-center">
   <div class="w3-section">
-    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Предыдущая</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Следующая ❯</button>
   </div>
 </div>
 
@@ -55,8 +55,7 @@ function showDivs(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-red", "");
   }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-red";
+  x[slideIndex-1].style.display = "block";
 }
 </script>
 

@@ -17,7 +17,7 @@ weight: 1
 <br>
 ## Day <br>
 ##### 13.00 - 13.30 &nbsp; Lunch<br>
-##### 13.30 - 14.00 &nbsp;  Prepare for nap<br>
+##### 13.30 - 14.00 &nbsp; Prepare for nap<br>
 ##### 13.30 - 14.30 &nbsp; Nap<br>
 ##### 16.00 - 16.15 &nbsp; Wake up<br>
 <br>
