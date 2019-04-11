@@ -10,7 +10,7 @@
     </li>
     {{end}}
     {{ range $.Site.Home.AllTranslations }}
-    <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    <li><a style="font-size:75%" href="{{ .Permalink }}">{{ .Language.LanguageName }} <img src="/images/{{ .Language }}-flag.JPG" alt="flag" width="20"></a></li>
     {{ end }}
   </ul>
 </div>
