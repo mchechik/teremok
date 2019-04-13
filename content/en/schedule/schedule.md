@@ -2,7 +2,7 @@
 title: 'Every day is full of activities'
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: 'schedule/play.jpg'
+image: 'schedule/play.JPG'
 weight: 1
 ---
 

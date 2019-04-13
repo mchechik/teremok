@@ -17,7 +17,7 @@ weight: 1
 <div class="w3-content" style="max-width:800px">
   <img alt-text="Image not found" class="mySlides rotate180" src="/images/IMG_0050.JPG" style="width:100%">
   <img alt-text="Image not found" class="mySlides rotate180" src="/images/IMG_0052.JPG" style="width:100%">
-  <img alt-text="Image not found" class="mySlides" src="/images/house.jpg" style="width:100%">
+  <img alt-text="Image not found" class="mySlides" src="/images/house.JPG" style="width:100%">
   <img alt-text="Image not found" class="mySlides" src="/images/IMG_0043.JPG" style="width:100%">  
   <img alt-text="Image not found" class="mySlides rotate180" src="/images/IMG_0055.JPG" style="width:100%">
   <img alt-text="Image not found" class="mySlides rotate180" src="/images/IMG_0057.JPG" style="width:100%">
