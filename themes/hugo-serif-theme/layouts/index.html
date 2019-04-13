@@ -23,7 +23,7 @@
           {{ .Site.Data.contact.email }}
         </a>
       </div>
-      <a href="{{ .Site.BaseURL }}contact" class="button">{{ i18n "contact" }}</a>
+      <a href="{{.URL | relLangURL }}/contact" class="button">{{ i18n "contact" }}</a>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@
         {{ if .image }}<div class="feature-image"><img alt="{{ .title }} logo" src="{{ .image }}" /></div> {{ end }}
         <h2 class="feature-title">{{ .title }}</h2>
         {{ if .description }}<div class="feature-content">{{ .description }}</div>{{ end }}
-        {{ if .link }}<div class="feature-content"><a href="{{ .link.url }}" class="button">{{ .link.text }}</a></div>{{ end }}
+        {{ if .link }}<div class="feature-content"><a href="{{.URL | relLangURL }}/{{ .link.url }}" class="button">{{ .link.text }}</a></div>{{ end }}
       </div>
     </div>
     {{end}}
