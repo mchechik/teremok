@@ -1,5 +1,5 @@
 theme = "hugo-serif-theme"
-baseURL = "https://teremokdaycare.com"
+baseURL = "https://teremokdaycare.com/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
